@@ -1,0 +1,123 @@
+ * {
+        padding: 0;
+        margin: 0;
+    }
+      .container {
+        border: 1px solid black;
+        width: 50%;
+        margin: 2rem auto;
+        padding: 1rem;
+        background-image: url("https://png.pngtree.com/back_origin_pic/03/90/49/747a377a14b0b2c2e779b4b438103d69.jpg");
+        /* background: linear-gradient(red , orange );  */
+        /* background-color: white; */
+        box-shadow: 10px 10px 5px black;
+      }
+
+
+      h1 {
+        text-align: center;
+        padding: 1rem 0;
+        font-weight: 900;
+        -webkit-text-stroke: 2px black;
+        font-size: 60px; 
+        background-image: url("https://th.bing.com/th/id/OIP.JVV5AM-RrqK58djWvMBgXwHaEK?rs=1&pid=ImgDetMain");
+        background-size: cover;
+        background-position: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+
+
+      form {
+        width: 90%;
+        border: 1px;
+      }
+
+
+      #task-input {
+        width: 70%;
+        height: 35px;
+      }
+
+
+      .add-btn {
+        width: calc(100%-70%);
+        margin: 15px;
+        padding: 10px 20px;
+        background-color: rgba(108, 108, 240, 0.89);
+        font-weight: 300;
+        color: #fff;
+        border-radius: 50px;
+        border: none;
+        transition: all ease 1s;
+        background: linear-gradient(red , rgba(100, 100, 201, 0.925) , orange);
+      }
+
+      .add-btn:active{
+        scale: 0.9;
+      }
+
+      .task-items {
+        list-style: none;
+        width: 90%;
+        margin: 15px;
+      }
+
+
+      #search {
+        width: 80%;
+        margin: 10px 0;
+        height: 35px;
+      }
+
+
+      .err {
+        width: 80%;
+        display: none;
+        background-color: rgb(234, 175, 175);
+        color: red;
+        margin: 2px 0;
+}
+
+.clear-tasks{
+    padding: 10px 20px;
+    background-color: rgba(108, 108, 240, 0.89);
+    font-weight: 300;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    transition: all ease 1s;
+    background: linear-gradient(red , rgba(100, 100, 201, 0.925) , orange);
+}
+   
+.clear-tasks:active{
+    scale: 0.9;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?w=1060&t=st=1707334119~exp=1707334719~hmac=0364fbe1fbc51332b8655737785ffe7683bb06911fa6a7baeab44d7e51228f87");
+    background-size: cover;
+}
+
+
+.button{
+    padding: 10px 20px;
+    background-color: rgba(108, 108, 240, 0.89);
+    font-weight: 300;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    transition: all ease 1s;
+    background: linear-gradient(red , rgba(100, 100, 201, 0.925) , orange);
+}
+
+.button:active{
+    scale: 0.9;
+  }
+
+.tas{
+    width: 70%;
+    background-color: white;
+    height: 35px;
+}
